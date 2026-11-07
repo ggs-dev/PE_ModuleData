@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pe-moduledata
+  title: PE_ModuleData
+  description: A repo for tracking moduledata changes.
+  annotations:
+    github.com/project-slug: ggs-dev/PE_ModuleData
+  tags:
+    - javascript
+spec:
+  type: library
+  lifecycle: experimental
+  owner: group:default/developers
